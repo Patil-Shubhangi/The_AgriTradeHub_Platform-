@@ -1,0 +1,100 @@
+/* SellerForm.css */
+
+.popup1-details {
+    position: fixed;
+    top: 55%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(https://img.freepik.com/premium-photo/lush-greenery-abstract-background-embellished-with-smooth-lines_717440-14077.jpg);
+    padding: 8px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(255, 255, 255, 0.1);
+    font-size: 15px;
+    z-index: 100;
+    width: 400px;
+    height: 570px;
+}
+
+.popup1-details h4 {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.popup1-details label {
+    display: block;
+    font-size: 15px;
+    margin-bottom: 10px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+.popup1-details input,
+.popup1-details select,
+.popup1-details textarea {
+    color: #050505;
+    width: 100%;
+    padding: 8px;
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 2px;
+    border: 1px solid #524e4e;
+    background-color: #f8f4f4;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.popup1-details button[type="submit"] {
+    background-color: rgb(73, 209, 102);
+    color: white;
+    width: 380px;
+    margin-left: 3px;
+    font-size: 18px;
+    border-radius: 4px;
+    padding: 4px;
+    cursor: pointer;
+    margin-top: 5px;
+    transition: background-color 0.3s ease;
+    border: none;
+}
+
+.popup1-details button[type="submit"]:hover {
+    background-color: rgb(198, 231, 48);
+}
+
+.confirmation-popup {
+    color: #0a0a0a;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    z-index: 9999;
+}
+
+.confirmation-content {
+    text-align: center;
+}
+
+.confirmation-popup p {
+    margin-bottom: 10px;
+}
+
+.confirmation-popup button {
+    padding: 8px 20px;
+    background-color: #60f1e5;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.confirmation-popup button:hover {
+    background-color: #3a93f3;
+}
